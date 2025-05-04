@@ -38,7 +38,7 @@ pub struct SkeinPlugin {
     ///
     /// use `false` if you want to handle setting up BRP yourself
     #[allow(dead_code)]
-    handle_brp: bool,
+    pub handle_brp: bool,
 }
 
 impl Default for SkeinPlugin {
